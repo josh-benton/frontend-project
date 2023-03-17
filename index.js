@@ -166,7 +166,6 @@ function handleEnter(event) {
             `Today's golden hour in ${location} will occur at ${goldenHour}`
           );
           let timeZone = data.results.timezone;
-          console.log(timeZone);
           let currentDate = new Date().toLocaleDateString("en-US", {
             year: "numeric",
             month: "short",
