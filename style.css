@@ -1,0 +1,124 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #87CEFA;
+  }
+  
+  h1 {
+    /* font-size: 50px; */
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+    /* color: #333; */
+    font-family: 'Tangerine', cursive;
+    color: gold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5); /* add a subtle shadow effect */
+    font-size: 100px; /* adjust the font size as needed */
+    /* font-size: 6rem; */
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    max-width: 800px;
+    max-height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFE769; /* update the background color to a yellow shade */
+    border-radius: 10px; /* make the border radius 50% horizontally and vertically and 10% for the curve */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #D8E6F3;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4d90fe;
+  }
+  
+  #submit {
+    background-color: #4d90fe;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #submit:hover {
+    background-color: #357ae8;
+  }
+  
+  .bottom-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .goldenTime {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+
+  .count-label {
+    height: 30px;
+    width: 250px;
+    background-color: coral;
+    border-radius: 10px; /* make the element round */
+    display: flex;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5); /* add a subtle shadow effect */
+    }
+  
+
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown div {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    background-color: #FFDAB9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 0 5px;
+  }
+
+  p {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    color: black;
+    text-shadow: 1px 1px 1px #f5f6f9cc; /* add a subtle shadow effect */
+    /* font-size: 2rem; */
+  }
